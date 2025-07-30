@@ -1,0 +1,127 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related (uncomment if you want to exclude VS Code settings)
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/*.freezed.dart
+**/*.g.dart
+**/*.gen.dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutterfire/
+.pub-cache/
+.pub/
+/build/
+**/ios/Flutter/.last_build_id
+
+# Build directories
+build/
+**/build/
+
+# Dependencies
+**/packages/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Android related
+**/android/**/gradle/wrapper/gradle-wrapper.jar
+**/android/**/gradle.properties
+**/android/**/keystore.properties
+**/android/**/local.properties
+**/android/**/app/build/outputs/apk
+**/android/**/app/build/outputs/bundle
+**/android/**/app/build/intermediates
+**/android/**/app/build/outputs/mapping
+**/android/**/app/build/generated
+**/android/**/app/.gradle
+**/android/**/app/build/outputs/incremental
+**/android/**/app/build/tmp
+**/android/**/app/.idea
+**/android/**/build.gradle
+**/android/**/settings.gradle
+**/android/**/gradle.properties
+**/android/**/gradlew
+**/android/**/gradlew.bat
+**/android/**/local.properties
+
+# iOS related
+**/ios/**/Pods/
+**/ios/**/Runner.xcworkspace
+**/ios/**/Runner.xcodeproj/project.xcworkspace
+**/ios/**/Runner.xcodeproj/xcuserdata/
+**/ios/**/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+**/ios/**/Runner.xcworkspace/xcuserdata/
+
+# Flutter testing
+**/test/**/coverage/
+
+# Flutter web
+**/web/**/.dart_tool/
+**/web/**/.flutter_tool/
+**/web/**/.packages/
+**/web/**/.pub/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Coverage reports
+coverage/
+
+# Debug logs
+flutter_test_coverage/
+
+# Local development
+**/lib/**/main.dart
+**/lib/**/main_dev.dart
+**/lib/**/main_prod.dart
+
+# Flutter build artifacts
+**/flutter_assets/
+**/flutter_export_environment.sh
+**/flutter_export_environment.sh.bak
+
+# Flutter web build
+**/web/**/index.html
+**/web/**/main.dart.js
+**/web/**/main.dart.js.map
+**/web/**/main.dart.js.deps
+**/web/**/main.dart.js.deps.map
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+.qodo

@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/afifshyam/development/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/afifshyam/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/afifshyam/development/flood_prediction_fyp/android/app/.cxx/Debug/6f4v4jw3/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/afifshyam/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/afifshyam/development/flood_prediction_fyp/android/app/.cxx/Debug/6f4v4jw3/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
