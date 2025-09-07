@@ -4,7 +4,7 @@ description: "FYP Project enhancement with state_management"
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.0
+  sdk: ^3.9.0
 
 dependencies:
   cupertino_icons: ^1.0.8
@@ -34,5 +34,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/image/
-    - assets/icon/
+    # - assets/icon/
     - assets/gif/

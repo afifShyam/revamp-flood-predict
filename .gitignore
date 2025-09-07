@@ -98,7 +98,6 @@ coverage/
 flutter_test_coverage/
 
 # Local development
-**/lib/**/main.dart
 **/lib/**/main_dev.dart
 **/lib/**/main_prod.dart
 

@@ -10,22 +10,35 @@ class ShoppingItemScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BackResultHandler(
-      onBackWithResult: () => 'from shopping item',
+      onBackWithResult: () => 'from shopping item $itemId',
       child: Scaffold(
         appBar: AppBar(
           title: Text("Item Details"),
-          automaticallyImplyLeading: true,
           leading: IconButton(
-              icon: Icon(Icons.arrow_back),
-              // onPressed: () => context.go('/shopping'),
-              onPressed: () {
-                context.pop('le');
-              }),
+            icon: Icon(Icons.arrow_back),
+            onPressed: () {
+              context.pop('from shopping item $itemId');
+            },
+          ),
         ),
         body: Center(
-          child: Text(
-            "🛍️ Viewing details for Item ID: $itemId",
-            style: TextStyle(fontSize: 20),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text("🛍️ Viewing details for Item ID: $itemId"),
+              ElevatedButton(
+                onPressed: () {
+                  context.pop('Added item $itemId to cart');
+                },
+                child: Text('Add to Cart & Go Back'),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  context.pop('Viewed item $itemId');
+                },
+                child: Text('Go Back'),
+              ),
+            ],
           ),
         ),
       ),
